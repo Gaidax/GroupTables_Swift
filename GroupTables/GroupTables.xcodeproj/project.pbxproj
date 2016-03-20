@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E905D1361A14FBD10066D884 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905D1351A14FBD10066D884 /* AppDelegate.swift */; };
+		E905D1391A14FBD10066D884 /* GroupTables.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E905D1371A14FBD10066D884 /* GroupTables.xcdatamodeld */; };
+		E905D13B1A14FBD10066D884 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905D13A1A14FBD10066D884 /* ViewController.swift */; };
+		E905D13E1A14FBD10066D884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E905D13C1A14FBD10066D884 /* Main.storyboard */; };
+		E905D1401A14FBD10066D884 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E905D13F1A14FBD10066D884 /* Images.xcassets */; };
+		E905D1431A14FBD10066D884 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E905D1411A14FBD10066D884 /* LaunchScreen.xib */; };
+		E905D14F1A14FBD10066D884 /* GroupTablesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905D14E1A14FBD10066D884 /* GroupTablesTests.swift */; };
+		E905D15B1A14FE7E0066D884 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E905D15A1A14FE7E0066D884 /* Group.swift */; };
+		E93BFFD01A1C4EFC002C661B /* StudentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973E8F11A16B1840004CC13 /* StudentInfo.swift */; };
+		E973E8EC1A1682AC0004CC13 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973E8EB1A1682AC0004CC13 /* Student.swift */; };
+		E973E8F41A16B1840004CC13 /* StudentInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = E973E8F21A16B1840004CC13 /* StudentInfo.xib */; };
+		E973E8F61A16E7E50004CC13 /* AddStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E973E8F51A16E7E50004CC13 /* AddStudent.swift */; };
+		E98964EB1A1581CE0036E5D3 /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98964E91A1581CE0036E5D3 /* Students.swift */; };
+		E98964EC1A1581CE0036E5D3 /* Students.xib in Resources */ = {isa = PBXBuildFile; fileRef = E98964EA1A1581CE0036E5D3 /* Students.xib */; };
+		E9F96B4A1A1535CA00A19FE1 /* AddGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F96B491A1535CA00A19FE1 /* AddGroup.swift */; };
+		E9FA12DA1A1BFA4D0012A108 /* EditGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FA12D91A1BFA4D0012A108 /* EditGroup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E905D1491A14FBD10066D884 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E905D1281A14FBD10066D884 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E905D12F1A14FBD10066D884;
+			remoteInfo = GroupTables;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E905D1301A14FBD10066D884 /* GroupTables.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroupTables.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E905D1341A14FBD10066D884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E905D1351A14FBD10066D884 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E905D1381A14FBD10066D884 /* GroupTables.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GroupTables.xcdatamodel; sourceTree = "<group>"; };
+		E905D13A1A14FBD10066D884 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E905D13D1A14FBD10066D884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E905D13F1A14FBD10066D884 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E905D1421A14FBD10066D884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E905D1481A14FBD10066D884 /* GroupTablesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroupTablesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E905D14D1A14FBD10066D884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E905D14E1A14FBD10066D884 /* GroupTablesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupTablesTests.swift; sourceTree = "<group>"; };
+		E905D15A1A14FE7E0066D884 /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		E973E8EB1A1682AC0004CC13 /* Student.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		E973E8F11A16B1840004CC13 /* StudentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfo.swift; sourceTree = "<group>"; };
+		E973E8F21A16B1840004CC13 /* StudentInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StudentInfo.xib; sourceTree = "<group>"; };
+		E973E8F51A16E7E50004CC13 /* AddStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddStudent.swift; sourceTree = "<group>"; };
+		E98964E91A1581CE0036E5D3 /* Students.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
+		E98964EA1A1581CE0036E5D3 /* Students.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Students.xib; sourceTree = "<group>"; };
+		E9F96B491A1535CA00A19FE1 /* AddGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddGroup.swift; sourceTree = "<group>"; };
+		E9FA12D91A1BFA4D0012A108 /* EditGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditGroup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E905D12D1A14FBD10066D884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E905D1451A14FBD10066D884 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E905D1271A14FBD10066D884 = {
+			isa = PBXGroup;
+			children = (
+				E905D1321A14FBD10066D884 /* GroupTables */,
+				E905D14B1A14FBD10066D884 /* GroupTablesTests */,
+				E905D1311A14FBD10066D884 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E905D1311A14FBD10066D884 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E905D1301A14FBD10066D884 /* GroupTables.app */,
+				E905D1481A14FBD10066D884 /* GroupTablesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E905D1321A14FBD10066D884 /* GroupTables */ = {
+			isa = PBXGroup;
+			children = (
+				E905D1351A14FBD10066D884 /* AppDelegate.swift */,
+				E905D15A1A14FE7E0066D884 /* Group.swift */,
+				E973E8F11A16B1840004CC13 /* StudentInfo.swift */,
+				E973E8F21A16B1840004CC13 /* StudentInfo.xib */,
+				E905D13A1A14FBD10066D884 /* ViewController.swift */,
+				E98964E91A1581CE0036E5D3 /* Students.swift */,
+				E98964EA1A1581CE0036E5D3 /* Students.xib */,
+				E905D13C1A14FBD10066D884 /* Main.storyboard */,
+				E9FA12D91A1BFA4D0012A108 /* EditGroup.swift */,
+				E973E8F51A16E7E50004CC13 /* AddStudent.swift */,
+				E9F96B491A1535CA00A19FE1 /* AddGroup.swift */,
+				E905D13F1A14FBD10066D884 /* Images.xcassets */,
+				E905D1411A14FBD10066D884 /* LaunchScreen.xib */,
+				E905D1371A14FBD10066D884 /* GroupTables.xcdatamodeld */,
+				E973E8EB1A1682AC0004CC13 /* Student.swift */,
+				E905D1331A14FBD10066D884 /* Supporting Files */,
+			);
+			path = GroupTables;
+			sourceTree = "<group>";
+		};
+		E905D1331A14FBD10066D884 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E905D1341A14FBD10066D884 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E905D14B1A14FBD10066D884 /* GroupTablesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E905D14E1A14FBD10066D884 /* GroupTablesTests.swift */,
+				E905D14C1A14FBD10066D884 /* Supporting Files */,
+			);
+			path = GroupTablesTests;
+			sourceTree = "<group>";
+		};
+		E905D14C1A14FBD10066D884 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E905D14D1A14FBD10066D884 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E905D12F1A14FBD10066D884 /* GroupTables */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E905D1521A14FBD10066D884 /* Build configuration list for PBXNativeTarget "GroupTables" */;
+			buildPhases = (
+				E905D12C1A14FBD10066D884 /* Sources */,
+				E905D12D1A14FBD10066D884 /* Frameworks */,
+				E905D12E1A14FBD10066D884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroupTables;
+			productName = GroupTables;
+			productReference = E905D1301A14FBD10066D884 /* GroupTables.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E905D1471A14FBD10066D884 /* GroupTablesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E905D1551A14FBD10066D884 /* Build configuration list for PBXNativeTarget "GroupTablesTests" */;
+			buildPhases = (
+				E905D1441A14FBD10066D884 /* Sources */,
+				E905D1451A14FBD10066D884 /* Frameworks */,
+				E905D1461A14FBD10066D884 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E905D14A1A14FBD10066D884 /* PBXTargetDependency */,
+			);
+			name = GroupTablesTests;
+			productName = GroupTablesTests;
+			productReference = E905D1481A14FBD10066D884 /* GroupTablesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E905D1281A14FBD10066D884 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Milchevskiy Pogrebnyak";
+				TargetAttributes = {
+					E905D12F1A14FBD10066D884 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					E905D1471A14FBD10066D884 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = E905D12F1A14FBD10066D884;
+					};
+				};
+			};
+			buildConfigurationList = E905D12B1A14FBD10066D884 /* Build configuration list for PBXProject "GroupTables" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E905D1271A14FBD10066D884;
+			productRefGroup = E905D1311A14FBD10066D884 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E905D12F1A14FBD10066D884 /* GroupTables */,
+				E905D1471A14FBD10066D884 /* GroupTablesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E905D12E1A14FBD10066D884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E973E8F41A16B1840004CC13 /* StudentInfo.xib in Resources */,
+				E905D13E1A14FBD10066D884 /* Main.storyboard in Resources */,
+				E905D1431A14FBD10066D884 /* LaunchScreen.xib in Resources */,
+				E905D1401A14FBD10066D884 /* Images.xcassets in Resources */,
+				E98964EC1A1581CE0036E5D3 /* Students.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E905D1461A14FBD10066D884 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E905D12C1A14FBD10066D884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93BFFD01A1C4EFC002C661B /* StudentInfo.swift in Sources */,
+				E9FA12DA1A1BFA4D0012A108 /* EditGroup.swift in Sources */,
+				E905D13B1A14FBD10066D884 /* ViewController.swift in Sources */,
+				E905D1391A14FBD10066D884 /* GroupTables.xcdatamodeld in Sources */,
+				E905D1361A14FBD10066D884 /* AppDelegate.swift in Sources */,
+				E98964EB1A1581CE0036E5D3 /* Students.swift in Sources */,
+				E9F96B4A1A1535CA00A19FE1 /* AddGroup.swift in Sources */,
+				E973E8F61A16E7E50004CC13 /* AddStudent.swift in Sources */,
+				E905D15B1A14FE7E0066D884 /* Group.swift in Sources */,
+				E973E8EC1A1682AC0004CC13 /* Student.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E905D1441A14FBD10066D884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E905D14F1A14FBD10066D884 /* GroupTablesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E905D14A1A14FBD10066D884 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E905D12F1A14FBD10066D884 /* GroupTables */;
+			targetProxy = E905D1491A14FBD10066D884 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E905D13C1A14FBD10066D884 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E905D13D1A14FBD10066D884 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E905D1411A14FBD10066D884 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E905D1421A14FBD10066D884 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E905D1501A14FBD10066D884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E905D1511A14FBD10066D884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E905D1531A14FBD10066D884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroupTables/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E905D1541A14FBD10066D884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GroupTables/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E905D1561A14FBD10066D884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GroupTablesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroupTables.app/GroupTables";
+			};
+			name = Debug;
+		};
+		E905D1571A14FBD10066D884 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GroupTablesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GroupTables.app/GroupTables";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E905D12B1A14FBD10066D884 /* Build configuration list for PBXProject "GroupTables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E905D1501A14FBD10066D884 /* Debug */,
+				E905D1511A14FBD10066D884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E905D1521A14FBD10066D884 /* Build configuration list for PBXNativeTarget "GroupTables" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E905D1531A14FBD10066D884 /* Debug */,
+				E905D1541A14FBD10066D884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E905D1551A14FBD10066D884 /* Build configuration list for PBXNativeTarget "GroupTablesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E905D1561A14FBD10066D884 /* Debug */,
+				E905D1571A14FBD10066D884 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E905D1371A14FBD10066D884 /* GroupTables.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E905D1381A14FBD10066D884 /* GroupTables.xcdatamodel */,
+			);
+			currentVersion = E905D1381A14FBD10066D884 /* GroupTables.xcdatamodel */;
+			path = GroupTables.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E905D1281A14FBD10066D884 /* Project object */;
+}
